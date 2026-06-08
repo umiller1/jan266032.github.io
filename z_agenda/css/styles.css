@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@keyframes wipe {
+    to {
+        background-position: 200%;
+    }
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+h1, h2, h4 {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: bold;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.contain {
+    width: 90dvw;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.diamond {
+    font-size: 0.5em;
+    vertical-align: middle;
+    display: inline-block;
+}
+.hidden {
+    display: none !important;
+}
+/* header and nav */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px 40px;
+    .title {
+        background: #ffc400;
+        color: #111;
+        padding: 20px;
+        border-radius: 25px;
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+    .links {
+        display: flex;
+        gap: 25px;
+        padding-top: 6px;
+    }
+    a {
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+        background: linear-gradient(to right, #00d9d9 20%, #94d900 40%, #ffc400 60%, #94d900 80%, #00d9d9 100%);
+        background-size: 200% auto;
+        color: #000;
+        background-clip: text;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        &:hover {
+            animation: wipe 2s linear infinite;
+        }
+    }
+}
+
+main {
+    height: 100vh;
+    max-height: calc(100vh - 187.5px);
+}
+main .contain {
+    display: grid;
+    grid-template-columns: 650px 1fr;
+    gap: 80px;
+    height: 100%;
+    padding-bottom: 45px;
+    .col-a {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #greeting {
+        margin-bottom: 20px;
+    }
+    #funfact {
+        display: flex;
+        flex-direction: column;
+        img {
+            border-radius: 25px 25px 0px 0px;
+            display: block;
+            flex: 1;
+            max-height: 350px;
+        }
+        div {
+            flex: 1;
+            background-color: #94d900;
+            color: #111;
+            padding: 25px;
+            border-radius: 0px 0px 25px 25px;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+    }
+    .col-b {
+        flex: 1;
+        h3 {
+            margin: 25px 0px 5px;
+            font-size: 1.5rem;
+            color: #94d900;
+        }
+        ul {
+            list-style-type: none;
+        }
+        strong {
+            display: inline-block;
+            margin-right: 8px;
+        }
+        #break {
+            background-color: #ffc400;
+            padding: 20px;
+            margin-top: 25px;
+            border-radius: 15px;
+            text-align: center;
+            &.luncho {
+                background-color: transparent;
+                border-top: 1px solid #94d900;
+                border-bottom: 1px solid #94d900;
+                color: #1119;
+                margin: 25px auto 0px;
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
+
+footer {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #111;
+    color: #fff;
+    #attendance {
+        flex: 2;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+        h2 {
+            font-size: 4rem;
+            color: #94d900;
+        }
+        p {
+            font-size: 2rem;
+        }
+    }
+    #dotd {
+        position: relative;
+        flex: 1;
+        h4 {
+            background-color: #ffc400;
+            color: #111;
+            padding: 15px;
+            position: absolute;
+            top: 25px;
+            left: 25px;
+        }
+        iframe {
+            height: 100%;
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width: 1395px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        .title {
+            text-align: center;
+            p {
+                flex-direction: column;
+            }
+        }
+        .links {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+    }
+    main {
+        height: auto;
+        max-height: none;
+    }
+    main .contain {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        #funfact {
+            img {
+                max-height: 200px;
+            }
+            div {
+                padding: 15px 20px;
+            }
+        }
+    }
+    footer {
+        flex-direction: column;
+        #attendance {
+            h2 {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
