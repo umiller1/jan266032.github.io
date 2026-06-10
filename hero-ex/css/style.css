@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.sc{
+    width: 90vw;
+    max-width: 1440px;
+    margin: 0px auto;
+}    
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    text-align: right;
+}
+.content p {
+    margin: 12px 0px 24px;
+}
+.content a {
+    display: inline-block;
+    background-color: #0048ff;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 24px;
+}
