@@ -194,4 +194,26 @@ footer {
     p {
         max-width: 800px;
     }
+    .container .btns {
+        display: flex;
+        gap: 12px;
+        position: absolute;
+        bottom: 24px;
+        right: 5vw;
+    }
+    .container button {
+        border: 0px;
+        padding: 4px;
+        font-size: 0.85rem;
+        background-color: #9ee8a5;
+        width: 30px;
+        aspect-ratio: 1 / 1;
+        cursor: pointer;
+        border-radius: 50%;
+        opacity: 0.2;
+        transition: opacity 0.25s;
+        &:hover {
+            opacity: 1;
+        }
+    }
 }
