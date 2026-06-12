@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- 
+            Demo First Half:
+            Go over what an anchor is and how they work.
+            Go over creating an anchor and the href attribute.
+            Go over dummy anchors.
+            Go over external anchors and the target attribute.
+            Go over anchors in paragraphs.
+        -->
+            <a href="#">Link</a>
+            <a href="https://google.com" target="_blank">Google</a>
+            <p>
+                Learn more at
+                <a 
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                    target="_blank"
+                >
+                    Mozilla MDN Docs.
+                </a>
+            </p>
+
+        <!--
+            Demo Second Half: See CSS to start.
+            Create an h1.
+            Create an UL with three LIs. Add a dummy anchor inside each LI.
+            Explain that you are creating a table of contents and each anchor
+            will be internally linked later.
+            Go to next comment.
+
+            Explain that in order to let the element know where to anchor to,
+            you must write the name of the ID used preceded by a hashtag symbol.
+            Add the appropriate ID names to each element.
+            Test it out.
+
+            Have a drill where students get 2-4 minutes to connect the h1 to the
+            "to top" anchor at the bottom.
+            Show them the correct answer or have them share with you.
+        -->
+        <h1 id="top">FAQ</h1>
+        <ul>
+            <li><a href="#s1">What is HTML?</a></li>
+            <li><a href="#s2">What is CSS?</a></li>
+            <li><a href="#s3">What is JavaScript?</a></li>
+        </ul>
+        <hr>
+
+        <!--
+            Create an h2 and a paragraph. Add an hr after it.
+            Repeat the above twice to get three sections.
+            In third section, add a dummy anchor after the paragraph.
+            Explain that in order to link internally, there must be an element
+            that acts as the "destination" the anchor elements anchor to.
+            Explain that this is done what ID attributes and what IDs are.
+            Give each h2 an ID.
+            Go back to previous comment.
+        -->
+        <h2 id="s1">What is HTML?</h2>
+        <p>HTML creates the structure of a webpage.</p>
+        <hr>
+
+        <h2 id="s2">What is CSS?</h2>
+        <p>CSS controls appearance and layout.</p>
+        <hr>
+
+        <h2 id="s3">What is JavaScript?</h2>
+        <p>JavaScript adds interactivity.</p>
+        <a href="#top">To Top</a>
+        <hr>
+    </body>
+</html>
