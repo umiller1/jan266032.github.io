@@ -13,7 +13,7 @@
             <div id="div" class="element">
                 <p class="name">&lt;div&gt;...&lt;/div&gt;</p>
                 <p class="desc">
-                    <strong>Division:</strong> General Container
+                    <strong>Division:</strong> General Container.
                 </p>
                 <p class="lvl"><em>block</em></p>
             </div>
@@ -38,7 +38,7 @@
                 <p class="desc">
                     <strong>Header:</strong>
                     Semantic Container. Must be at the top of its
-                    container/Msut be first child.
+                    container. Must be first child.
                 </p>
                 <p class="lvl"><em>block</em></p>
             </div>
@@ -217,8 +217,8 @@
                 <p class="name"><span class="sig">.</span>card {...}</p>
                 <p class="desc">
                     <strong>Class Selector:</strong>
-                    Selects any and all elements whose class attribute value matches
-                    the selector name.
+                    Selects any and all elements whose class attribute value 
+                    matches the selector name.
                 </p>
             </div>
             <div id="id" class="element">
@@ -234,11 +234,12 @@
                 <p class="desc">
                     <strong>Descendant Selector:</strong>
                     Selects the descendant element. The element to the
-                    right of the space is what is targeted and is the descendant.
-                    The element to the left of the space is the ascendant.
+                    right of the space is what is targeted and is the 
+                    descendant. The element to the left of the space is the 
+                    ascendant.
                     <span class="example">
-                        The example targets p elements that are descendants of div
-                        elements.
+                        The example targets p elements that are descendants of 
+                        div elements.
                     </span>
                 </p>
             </div>
@@ -291,9 +292,10 @@
                 <p class="desc">
                     <strong>Font Size:</strong> Changes the size of
                     the text.
-                    <br><strong class="value">Value(s):</strong> Any unit number.
+                    <br><strong class="value">Value(s):</strong> Any unit 
+                    number.
                 </p>
-                <p class="lvl c"><em>Cascading</em></p>
+                <p class="lvl c"><em>Cascades</em></p>
             </div>
             <div id="fweight" class="element">
                 <p class="name">font-weight: 400;</p>
@@ -301,35 +303,43 @@
                     <strong>Font Weight:</strong>
                     Changes the thickness of the text.
                     <br><strong class="value">Value(s):</strong> Any integer
-                    number between 100-900 <b>or</b> 
+                    number between 100-900 <b>or</b> <i>keywords</i>: bold, 
+                    bolder, light, ligther
                 </p>
-                <p class="lvl c"><em>cascading</em></p>
+                <p class="lvl c"><em>Cascades</em></p>
             </div>
             <div id="fstyle" class="element">
-                <p class="name">&lt;section&gt;...&lt;/section&gt;</p>
+                <p class="name">font-style: normal;</p>
                 <p class="desc">
-                    <strong>Section:</strong>
-                    Semantic Container. Requires heading child.
+                    <strong>Font Style:</strong> Adjusts the font to be
+                    normal, italic, or oblique.
+                    <br><strong class="value">Value(s):</strong> <i>keywords</i>
+                    : normal, italic, oblique
                 </p>
-                <p class="lvl"><em>block</em></p>
+                <p class="lvl c"><em>Cascades</em></p>
             </div>
             <div id="ffamily" class="element">
-                <p class="name">&lt;header&gt;...&lt;/header&gt;</p>
+                <p class="name">font-family: "Roboto", sans-serif;</p>
                 <p class="desc">
-                    <strong>Header:</strong>
-                    Semantic Container. Must be at the top of its
-                    container/Msut be first child.
+                    <strong>Font Family:</strong> Changes the font of an element
+                    and sets up fallback font options for cross-compatibiltiy.
+                    <br><strong class="value">Value(s):</strong> One or more
+                    font family names wrapped in a pair of double quotes,
+                    separated by commas, and ending with the font 
+                    classification.
                 </p>
-                <p class="lvl"><em>block</em></p>
+                <p class="lvl c"><em>Cascades</em></p>
             </div>
-            <div id="nav" class="element">
-                <p class="name">&lt;nav&gt;...&lt;/nav&gt;</p>
+            <div id="tdecoration" class="element">
+                <p class="name">text-decoration: underline;</p>
                 <p class="desc">
-                    <strong>Navigation:</strong>
-                    Semantic Container. Requires at least one anchor
-                    element or button element.
+                    <strong>Text Decoration:</strong> Sets the appearance of
+                    decorative lines on, above, or below text.
+                    <br><strong class="value">Value(s):</strong> <i>keywords</i>
+                    : underline, overline, line-through
                 </p>
-                <p class="lvl"><em>block</em></p>
+                <p class="lvl c"><em>Cascades</em></p>
+                <p class="lvl c sh"><em>Shorthand</em></p>
             </div>
         </section>
     </body>
