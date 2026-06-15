@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+div p:first-child {
+    font-family: "Google Sans Code", monospace;
+}
+
+section {
+    margin: 25px auto 50px;
+    width: 80%;
+    max-width: 800px;
+    border: 1px solid #ff7b00;
+    padding: 25px;
+    position: relative;
+    > h2 {
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: max-content;
+        background-color: white;
+        padding: 0px 10px;
+        color: #ff7b00;
+        font-size: 1.5rem;
+    }
+    .element {
+        display: grid;
+        grid-template-columns: 1fr 1fr 80px;
+        align-items: center;
+        gap: 10px;
+    }
+    .element:nth-of-type(2n) {
+        background-color: #fff0e2;
+    }
+    .element p.name {
+        min-width: 212px;
+        padding-left: 10px;
+    }
+    .element p.desc {
+        border-left: 1px solid #ff7b00;
+        padding: 20px 0px 20px 10px;
+        .void {
+            color: #7e7e7e;
+            font-weight: 500;
+        }
+    }
+    .element p.lvl {
+        background-color: #203b4b;
+        color: #f1fcff;
+        padding: 5px;
+        display: block;
+        text-align: center;
+        font-family: "Google Sans Code", monospace;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+    }
+    .element p.lvl.i {
+        background-color: #366516;
+        color: #f3fff1;
+    }
+}
+section.css {
+    border: 1px solid #00b7ff;
+    > h2 {
+        color: #00b7ff;
+    }
+    .element:nth-of-type(2n) {
+        background-color: #e2f4ff;
+    }
+    .element p.desc {
+        border-left: 1px solid #00b7ff;
+    }
+    .element p.lvl {
+        background-color: #ff7b00;
+        color: #f1fcff;
+    }
+    .element p.lvl.i {
+        background-color: #00b7ff;
+        color: #e2f4ff;
+    }
+    .sig {
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #ff00c3;
+        &.c {
+            background-color: #ff00c3;
+            display: inline-block;
+        }
+        &.ns {
+            background-color: #ff00c3;
+            display: inline-block;
+            width: 1.5px;
+            height: 20px;
+        }
+    }
+    .example {
+        color: #82004e;
+        font-size: 0.9rem;
+        display: inline-block;
+        margin-top: 10px;
+        font-style: italic;
+    }
+    .value {
+        display: inline-block;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    section {
+        width: 90%;
+        .element {
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+        .element p.name {
+            margin: 0px;
+            padding: 15px 0px 0px 0px;
+            text-align: center;
+            border-top: 2px solid #ff7b00;
+            font-size: 1.125rem;
+        }
+        .element p.desc {
+           border: none;
+           padding: 10px;
+           align-self: center;
+        }
+    }
+}
