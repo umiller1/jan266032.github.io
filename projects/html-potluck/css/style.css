@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.sc {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+a {
+    text-decoration: none;
+    color: #111;
+}
+h1 {
+    text-align: center;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+    background-color: #111;
+    color: #eee;
+}
+#header .sc {
+    display: flex;
+    gap: 24px;
+    text-align: center;
+}
+#header h2 {
+    margin-top: 18px;
+}
+#header a {
+    color: #eee;
+}
+.section {
+    height: 100vh;
+}
+
+#ms1,
+#ms2,
+#ms3 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    padding: 78px 0px;
+    .sc > img {
+        max-height: 70vh;
+    }
+}
+.section .sbs {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.section .sbs img {
+    height: 100%;
+    width: 24px;
+}
+.section p {
+    margin-top: 12px;
+}
+
+/* COOKBOOK */
+#cbk #header {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+    justify-content: center;
+    background-color: #eee;
+    color: #111;
+    .card {
+        flex: 1;
+    }
+    img {
+        aspect-ratio: 1 / 1;
+    }
+    h2 {
+        font-weight: lighter;
+        font-variant: small-caps;
+    }
+    .btn {
+        display: inline-block;
+        background-color: #e49c00;
+        border: 0.5px solid #e49c00;
+        padding: 6px 24px;
+        margin-top: 12px;
+        &:hover {
+            background-color: transparent;
+            color: #e49c00;
+            font-weight: lighter;
+        }
+    }
+}
