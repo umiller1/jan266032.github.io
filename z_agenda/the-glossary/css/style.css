@@ -31,7 +31,7 @@ section {
     }
     .element {
         display: grid;
-        grid-template-columns: 1fr 1fr 80px;
+        grid-template-columns: 1fr 1fr minmax(80px, 100px);
         align-items: center;
         gap: 10px;
     }
@@ -76,18 +76,17 @@ section.css {
     .element p.desc {
         border-left: 1px solid #00b7ff;
     }
-    .element:has(.sh) {
+    .element .split {
         display: flex;
         flex-wrap: wrap;
         gap: 0px;
         p {
-            flex: 100%;
+            flex: 1;
         }
     }
     .element p.lvl {
         background-color: #ff7b00;
         color: #f1fcff;
-        flex: 1;
     }
     .element p.sh {
         background-color: #ffc47c;
