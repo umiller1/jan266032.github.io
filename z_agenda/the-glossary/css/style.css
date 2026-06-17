@@ -75,6 +75,9 @@ section.css {
     }
     .element p.desc {
         border-left: 1px solid #00b7ff;
+        b i {
+            color: #444;
+        }
     }
     .element .split {
         display: flex;
@@ -91,6 +94,18 @@ section.css {
     .element p.sh {
         background-color: #ffc47c;
         color: #222;
+    }
+    .element p.fbx {
+        background-color: #c55ff4;
+        color: #eee;
+    }
+    .element p.csg {
+        background-color: #7eff7c;
+        color: #222;
+    }
+    .element p.cnt {
+        background-color: #3f3f3f;
+        color: #eee;
     }
     .element p.lvl.i {
         background-color: #00b7ff;
