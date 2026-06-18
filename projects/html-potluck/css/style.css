@@ -102,3 +102,47 @@ h1 {
         }
     }
 }
+
+/* PLAYLISTS */
+#ply {
+    background: linear-gradient(45deg, #a3acff, #ffa3df);
+    .sc {
+        height: 100vh;
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+}
+#ply .card {
+    background-color: #a3bbff22;
+    backdrop-filter: blur(15px);
+    border-radius: 24px;
+    padding: 24px;
+    border: 0.5px solid #a3acff22;
+    border-image: linear-gradient(45deg, #ffa3df, #fff, #a3bbff) 1;
+    .h-area {
+        display: flex;
+        gap: 24px;
+    }
+    .h-area img {
+        width: 200px;
+        aspect-ratio: 1 / 1;
+    }
+    .btns img {
+        width: 24px;
+    }
+}
+#ply .tracks {
+    .track {
+        display: flex;
+        gap: 24px;
+        margin: 24px 0px;
+    }
+    .track .ic img {
+        width: 100px;
+        aspect-ratio: 1 / 1;
+    }
+    h3 img {
+        width: 24px;
+    }
+}
