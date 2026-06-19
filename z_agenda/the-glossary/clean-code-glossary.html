@@ -6,57 +6,93 @@
         <title>The Clean Code Glossary</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body id="cleanCode">
         <h1>The Clean Code Glossary</h1>
         <h2>HTML Clean Code</h2>
         <section id="containers" class="section">
-            <h2>Container Elements</h2>
-            <div id="div" class="element">
+            <h2>Parents & Child(ren) Examples</h2>
+            <div id="btParent" class="element">
                 <p class="name">
-                    &lt;p&gt;<br>
-                    &emsp;&emsp;&lt;b&gt;...&lt;/b&gt;<br>
-                    &lt;/p&gt;
+                    <span class="peo">&lt;p&gt;</span>
+                    <span class="ce">Basic text child.</span>
+                    <span class="pec">&lt;/p&gt;</span>
                 </p>
                 <p class="desc">
-                    <strong>Parent & Child Split:</strong> Anything in between
+                    Anything in between
                     an opening and a closing tag must be indented one level to
                     the right.
                 </p>
-                <p class="lvl"><em>block</em></p>
             </div>
-            <div id="span" class="element">
-                <p class="name">&lt;span&gt;...&lt;/span&gt;</p>
-                <p class="desc">
-                    <strong>Content Span:</strong>
-                    Inline General Container.
+            <div id="mlbtParent" class="element">
+                <p class="name">
+                    <span class="peo">&lt;p&gt;</span>
+                    <span class="ce">
+                        Multi-line basic text children. Lorem ipsum dolor, sit 
+                        amet consectetur adipisicing elit.
+                    </span>
+                    <span class="pec">&lt;/p&gt;</span>
                 </p>
-                <p class="lvl i"><em>inline</em></p>
+                <p class="desc">
+                    Anything in between
+                    an opening and a closing tag must be indented one level to
+                    the right.
+                </p>
             </div>
-            <div id="section" class="element">
-                <p class="name">&lt;section&gt;...&lt;/section&gt;</p>
-                <p class="desc">
-                    <strong>Section:</strong>
-                    Semantic Container. Requires heading child.
+            <div id="ceParent" class="element">
+                <p class="name">
+                    <span class="peo">&lt;p&gt;</span>
+                    <span class="ce">
+                        <span class="ceo il">&lt;b&gt;</span>
+                        Child element content.
+                        <span class="cec il">&lt;/b&gt;</span>
+                    </span>
+                    <span class="pec">&lt;/p&gt;</span>
                 </p>
-                <p class="lvl"><em>block</em></p>
+                <p class="desc">
+                    Anything in between
+                    an opening and a closing tag must be indented one level to
+                    the right.
+                </p>
             </div>
-            <div id="header" class="element">
-                <p class="name">&lt;header&gt;...&lt;/header&gt;</p>
-                <p class="desc">
-                    <strong>Header:</strong>
-                    Semantic Container. Must be at the top of its
-                    container. Must be first child.
+            <div id="ceParent" class="element">
+                <p class="name">
+                    <span class="peo">&lt;p&gt;</span>
+                    <span class="ce">
+                        <span class="ceo">&lt;b&gt;</span>
+                        <span class="cech">
+                            Child element content spanning across multiple 
+                            lines.
+                        </span>
+                        <span class="cec">&lt;/b&gt;</span>
+                    </span>
+                    <span class="pec">&lt;/p&gt;</span>
                 </p>
-                <p class="lvl"><em>block</em></p>
+                <p class="desc">
+                    Anything in between
+                    an opening and a closing tag must be indented one level to
+                    the right.
+                </p>
             </div>
-            <div id="nav" class="element">
-                <p class="name">&lt;nav&gt;...&lt;/nav&gt;</p>
-                <p class="desc">
-                    <strong>Navigation:</strong>
-                    Semantic Container. Requires at least one anchor
-                    element or button element.
+            <div id="ceParent" class="element">
+                <p class="name">
+                    <span class="peo">&lt;p&gt;</span>
+                    <span class="ce">
+                        <span class="cebt">
+                            Multi-line basic text children.
+                        </span>
+                        <span class="ceo">&lt;p&gt;</span>
+                        <span class="cech">
+                            Child element content.
+                        </span>
+                        <span class="cec">&lt;/p&gt;</span>
+                    </span>
+                    <span class="pec">&lt;/p&gt;</span>
                 </p>
-                <p class="lvl"><em>block</em></p>
+                <p class="desc">
+                    Anything in between
+                    an opening and a closing tag must be indented one level to
+                    the right.
+                </p>
             </div>
         </section>
         <section id="textElements" class="section">

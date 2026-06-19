@@ -139,6 +139,46 @@ section.css {
     }
 }
 
+#cleanCode {
+    section {
+        border: 1px solid #ff7b00;
+        > h2 {
+            color: #ff7b00;
+        }
+        .element {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+        }
+        .element:nth-of-type(2n) {
+            background-color: #fff0e288;
+        }
+        p .peo, p .pec {
+            color: #c86100;
+            display: block;
+        }
+        p .ce, p .cech {
+            display: block;
+            padding-left: 24px;
+            background: linear-gradient(90deg, #7eff7c55 24px, #fff0 24px);
+            border-left: 1px solid #c86100;
+            &:has(.il) {
+                display: flex;
+            }
+        }
+        p .cech {
+            border-color: #005dc8;
+            background: linear-gradient(90deg, #7eff7c88 24px, #fff0 24px);
+        }
+        p .ceo, p .cec {
+            color: #005dc8;
+            display: block;
+        }
+    }
+}
+
 @media screen and (max-width: 700px) {
     section {
         width: 90%;
