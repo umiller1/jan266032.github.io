@@ -11,7 +11,23 @@ const QUESTION_BANK = [
   "In a world where technology and AI are rapidly evolving and overtly relied on, what are 3 skills, niches, or techniques you can safely fallback on if most technology stopped working for two decades?",
   "If you were a dragon, what one specific type of object(s) would you hoard?",
   "What would your rival insist is your greatest weakness?",
-  "You discover your subconscious has been applying for jobs without your knowledge while you sleepwalk. What kind of jobs would it apply for?"
+  "You discover your subconscious has been applying for jobs without your knowledge while you sleepwalk. What kind of jobs would it apply for?",
+  "What animal do you think would be the rudest if it could speak?",
+  "If you could speak to only one other species of anima, what would it be?",
+  "If you found a staircase in the woods, what would make you not climb it?",
+  "If your life had a sidequest that no one else knew of, what would it be?",
+  "If you could have a special effect every time you walked into a room, what effect would it be?",
+  "If you and your home got transported into a fantasy kingdom, what kind of title would you earn from the kingdom?",
+  "If you could be an expert in one thing ambigous, what would it be?",
+  "If you and your pet swapped places, would your pet take good care of you?",
+  "If you had magical access to a small cave behind a waterfall, what would you do with it?",
+  "If you were a dish, what restaurant would you be sold at?",
+  "If you were on trail and your jury were 12 cats, would you be found guilty or not guilty?",
+  "What's one tiny inconvenience that would grant you super powers and turn you into a villain?",
+  "If you were a boss in a video game, describe the aesthetic and look of your arena or level.",
+  "Pitch me a two sentence pitch for a book you'd be a main character in of your favorite genre.",
+  "If you accidentally got recruited in a secret society, what would it be and would you stay in it?",
+  "If one object in your life could write a complaint letter about you, what object would it be?"
 ];
 
 const COOLDOWN_WEEKDAYS = 45; // 9 weeks × 5 weekdays
