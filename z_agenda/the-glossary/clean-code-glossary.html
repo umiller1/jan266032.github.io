@@ -9,7 +9,7 @@
     <body id="cleanCode">
         <h1>The Clean Code Glossary</h1>
         <h2>HTML Clean Code</h2>
-        <section id="containers" class="section">
+        <section id="parents" class="section">
             <h2>Parents & Child(ren) Examples</h2>
             <div id="btParent" class="element">
                 <p class="name">
@@ -75,10 +75,10 @@
             </div>
             <div id="ceParent" class="element">
                 <p class="name">
-                    <span class="peo">&lt;p&gt;</span>
+                    <span class="peo">&lt;div&gt;</span>
                     <span class="ce">
                         <span class="cebt">
-                            Multi-line basic text children.
+                            Basic text children.
                         </span>
                         <span class="ceo">&lt;p&gt;</span>
                         <span class="cech">
@@ -86,6 +86,160 @@
                         </span>
                         <span class="cec">&lt;/p&gt;</span>
                     </span>
+                    <span class="pec">&lt;/div&gt;</span>
+                </p>
+                <p class="desc">
+                    Anything in between
+                    an opening and a closing tag must be indented one level to
+                    the right.
+                </p>
+            </div>
+            <div id="ceParent" class="element">
+                <p class="name">
+                    <span class="peo">&lt;div&gt;</span>
+                    <span class="ce">
+                        <span class="cebt">
+                            Multi-line basic text children. Lorem ipsum dolor
+                            larimar.
+                        </span>
+                        <span class="ceo">&lt;p&gt;</span>
+                        <span class="cech">
+                            Child element content spanning across multiple
+                            lines.
+                            <span class="ceo">&lt;b&gt;</span>
+                            <span class="cech">
+                                Additional child element here spanning across
+                                multiple lines.
+                            </span>
+                            <span class="cec">&lt;/b&gt;</span>
+                        </span>
+                        <span class="cec">&lt;/p&gt;</span>
+                    </span>
+                    <span class="pec">&lt;/div&gt;</span>
+                </p>
+                <p class="desc">
+                    Anything in between
+                    an opening and a closing tag must be indented one level to
+                    the right.
+                </p>
+            </div>
+            <div id="ceParent" class="element">
+                <p class="name">
+                    <span class="peo">&lt;div&gt;</span>
+                    <span class="ce">
+                        <span class="ceo">&lt;p&gt;</span>
+                        <span class="cech">
+                            Child element content spanning across multiple 
+                            lines.
+                        </span>
+                        <span class="cec">&lt;/p&gt;</span>
+                        <span class="ceo">&lt;p&gt;</span>
+                        <span class="cech">
+                            Child element content spanning across multiple 
+                            lines.
+                        </span>
+                        <span class="cec">&lt;/p&gt;</span>
+                    </span>
+                    <span class="pec">&lt;/div&gt;</span>
+                </p>
+                <p class="desc">
+                    Anything in between
+                    an opening and a closing tag must be indented one level to
+                    the right.
+                    <br><br>
+                    Two or more child elements under the same parent are 
+                    considered siblings.
+                </p>
+            </div>
+            <div id="ceParent" class="element">
+                <p class="name">
+                    <span class="peo">&lt;div&gt;</span>
+                    <span class="ce">
+                        <span class="ceo">&lt;p&gt;</span>
+                        <span class="cech">
+                            Child element that is also a parent element.
+                            <span class="ceo">&lt;b&gt;</span>
+                            <span class="cech">
+                                Child element here.
+                            </span>
+                            <span class="cec">&lt;/b&gt;</span>
+                        </span>
+                        <span class="cec">&lt;/p&gt;</span>
+                        <span class="ceo">&lt;p&gt;</span>
+                        <span class="cech">
+                            Child element that is also a parent element.
+                            <span class="ceo">&lt;b&gt;</span>
+                            <span class="cech">
+                                Child element here.
+                            </span>
+                            <span class="cec">&lt;/b&gt;</span>
+                        </span>
+                        <span class="cec">&lt;/p&gt;</span>
+                    </span>
+                    <span class="pec">&lt;/div&gt;</span>
+                </p>
+                <p class="desc">
+                    Anything in between
+                    an opening and a closing tag must be indented one level to
+                    the right.
+                    <br><br>
+                    Two or more child elements under the same parent are 
+                    considered siblings.
+                </p>
+            </div>
+            <div id="ceParent" class="element">
+                <p class="name">
+                    <span class="peo">&lt;div&gt;</span>
+                    <span class="ce">
+                        <span class="ceo">&lt;p&gt;</span>
+                        <span class="cech">
+                            Child element that is also a parent element.
+                            <span class="ceo">&lt;b&gt;</span>
+                            <span class="cech">
+                                Child element here.
+                            </span>
+                            <span class="cec">&lt;/b&gt;</span>
+                            <span class="ceo">&lt;span&gt;</span>
+                            <span class="cech">
+                                Child element here.
+                            </span>
+                            <span class="cec">&lt;/span&gt;</span>
+                        </span>
+                        <span class="cec">&lt;/p&gt;</span>
+                        <span class="ceo">&lt;p&gt;</span>
+                        <span class="cech">
+                            Child element that is also a parent element.
+                            <span class="ceo">&lt;b&gt;</span>
+                            <span class="cech">
+                                Child element here.
+                            </span>
+                            <span class="cec">&lt;/b&gt;</span>
+                            <span class="ceo">&lt;span&gt;</span>
+                            <span class="cech">
+                                Child element here.
+                            </span>
+                            <span class="cec">&lt;/span&gt;</span>
+                        </span>
+                        <span class="cec">&lt;/p&gt;</span>
+                    </span>
+                    <span class="pec">&lt;/div&gt;</span>
+                </p>
+                <p class="desc">
+                    Anything in between
+                    an opening and a closing tag must be indented one level to
+                    the right.
+                    <br><br>
+                    Two or more child elements under the same parent are 
+                    considered siblings.
+                </p>
+            </div>
+        </section>
+        <section id="attributes" class="section">
+            <h2>HTML Attribute Examples</h2>
+            <div id="btParent" class="element">
+                <p class="name">
+                    <span class="peo">&lt;p&gt;</span>
+                    <span class="ce">Basic text child.</span>
                     <span class="pec">&lt;/p&gt;</span>
                 </p>
                 <p class="desc">
@@ -95,431 +249,19 @@
                 </p>
             </div>
         </section>
-        <section id="textElements" class="section">
-            <h2>Text Elements</h2>
-            <div id="heading" class="element">
-                <p class="name">&lt;h1&gt;...&lt;/h1&gt;</p>
-                <p class="desc">
-                    <strong>Heading:</strong> Semantic heading. H1-H6.
-                </p>
-                <p class="lvl"><em>block</em></p>
-            </div>
-            <div id="paragraph" class="element">
-                <p class="name">&lt;p&gt;...&lt;/p&gt;</p>
-                <p class="desc">
-                    <strong>Paragraph:</strong>
-                    Paragraph element. Allows short sentences and
-                    paragraphs.
-                </p>
-                <p class="lvl"><em>block</em></p>
-            </div>
-            <div id="anchor" class="element">
+        <section id="layouts" class="section">
+            <h2>Layout Examples</h2>
+            <div id="btParent" class="element">
                 <p class="name">
-                    &lt;a href="#"&gt;...&lt;/a&gt;
+                    <span class="peo">&lt;p&gt;</span>
+                    <span class="ce">Basic text child.</span>
+                    <span class="pec">&lt;/p&gt;</span>
                 </p>
                 <p class="desc">
-                    <strong>Anchor:</strong>
-                    Hyperlink element used to link to sections on a page,
-                    a different page, or a different website. Must use
-                    href attribute.
+                    Anything in between
+                    an opening and a closing tag must be indented one level to
+                    the right.
                 </p>
-                <p class="lvl i"><em>inline</em></p>
-            </div>
-            <div id="bold" class="element">
-                <p class="name">&lt;b&gt;...&lt;/b&gt;</p>
-                <p class="desc">
-                    <strong>Bold:</strong>
-                    Bold element used to thicken text weight.
-                </p>
-                <p class="lvl i"><em>inline</em></p>
-            </div>
-            <div id="italic" class="element">
-                <p class="name">&lt;i&gt;...&lt;/i&gt;</p>
-                <p class="desc">
-                    <strong>Italic:</strong>
-                    Italic element used to slant text for emphasis.
-                </p>
-                <p class="lvl i"><em>inline</em></p>
-            </div>
-            <div id="strong" class="element">
-                <p class="name">&lt;strong&gt;...&lt;/strong&gt;</p>
-                <p class="desc">
-                    <strong>Strong:</strong>
-                    Strong element used to thicken text weight.
-                    Semantic version of the bold element.
-                </p>
-                <p class="lvl i"><em>inline</em></p>
-            </div>
-            <div id="em" class="element">
-                <p class="name">&lt;em&gt;...&lt;/em&gt;</p>
-                <p class="desc">
-                    <strong>Emphasis:</strong>
-                    Emphasis element used to slant text for emphasis.
-                    Semantic version of the italic element.
-                </p>
-                <p class="lvl i"><em>inline</em></p>
-            </div>
-            <div id="sup" class="element">
-                <p class="name">&lt;sup&gt;...&lt;/sup&gt;</p>
-                <p class="desc">
-                    <strong>Superscript:</strong>
-                    Superscripted element used to create exponents.
-                </p>
-                <p class="lvl i"><em>inline</em></p>
-            </div>
-            <div id="sub" class="element">
-                <p class="name">&lt;sub&gt;...&lt;/sub&gt;</p>
-                <p class="desc">
-                    <strong>Subscript:</strong>
-                    Subscripted element used to create footnotes.
-                </p>
-                <p class="lvl i"><em>inline</em></p>
-            </div>
-            <div id="blockquote" class="element">
-                <p class="name">
-                    &lt;blockquote&gt;...&lt;/blockquote&gt;
-                </p>
-                <p class="desc">
-                    <strong>Blockquote:</strong>
-                    Blockquote element used for special quotes.
-                </p>
-                <p class="lvl"><em>block</em></p>
-            </div>
-        </section>
-        <section id="otherElements" class="section">
-            <h2>Other Elements</h2>
-            <div id="img" class="element">
-                <p class="name">&lt;img src="..." alt="..."&gt;</p>
-                <p class="desc">
-                    <strong>Image:</strong> Adds an image to the page.
-                    Requires the src attribute and alt attribute.
-                    <em class="void">
-                        Void element, no closing tag required.
-                    </em>
-                </p>
-                <p class="lvl i"><em>inline</em></p>
-            </div>
-            <div id="hr" class="element">
-                <p class="name">&lt;hr&gt;</p>
-                <p class="desc">
-                    <strong>Horizontal Rule:</strong>
-                    Create horizontal line across container.
-                </p>
-                <p class="lvl"><em>block</em></p>
-            </div>
-            <div id="br" class="element">
-                <p class="name">&lt;br&gt;</p>
-                <p class="desc">
-                    <strong>Line Break:</strong>
-                    Create a line break.
-                </p>
-                <p class="lvl"><em>block</em></p>
-            </div>
-            <div id="ul" class="element">
-                <p class="name">&lt;ul&gt;...&lt;/ul&gt;</p>
-                <p class="desc">
-                    <strong>Unordered List:</strong>
-                    Semantic container for lists without chronological
-                    or specific order. May only have ol, ul, and/or li
-                    elements as a direct child.
-                </p>
-                <p class="lvl"><em>block</em></p>
-            </div>
-            <div id="ol" class="element">
-                <p class="name">&lt;ol&gt;...&lt;/ol&gt;</p>
-                <p class="desc">
-                    <strong>Ordered List:</strong>
-                    Semantic container for lists with a chronological
-                    or specified order. May only have ol, ul, and/or 
-                    li elements as a direct child.
-                </p>
-                <p class="lvl"><em>block</em></p>
-            </div>
-            <div id="li" class="element">
-                <p class="name">&lt;li&gt;...&lt;/li&gt;</p>
-                <p class="desc">
-                    <strong>List Item:</strong>
-                    Semantic child element of a list element. Can only
-                    be used in an ol or ul as the direct child.
-                </p>
-                <p class="lvl"><em>block</em></p>
-            </div>
-        </section>
-        <h2>CSS</h2>
-        <section id="selectors" class="section css">
-            <h2>CSS Selectors & Combinators</h2>
-            <div id="htmlelement" class="element">
-                <p class="name">div {...}</p>
-                <p class="desc">
-                    <strong>HTML Element Selector:</strong>
-                    Selects any and all elements whose tag/element name matches
-                    the selector name.
-                </p>
-            </div>
-            <div id="class" class="element">
-                <p class="name"><span class="sig">.</span>card {...}</p>
-                <p class="desc">
-                    <strong>Class Selector:</strong>
-                    Selects any and all elements whose class attribute value 
-                    matches the selector name.
-                </p>
-            </div>
-            <div id="id" class="element">
-                <p class="name"><span class="sig">#</span>logo {...}</p>
-                <p class="desc">
-                    <strong>ID Selector:</strong>
-                    Selects the one element whose ID attribute value matches
-                    the selector name.
-                </p>
-            </div>
-            <div id="descendant" class="element">
-                <p class="name">div<span class="sig c">&nbsp;</span>p {...}</p>
-                <p class="desc">
-                    <strong>Descendant Selector:</strong>
-                    Selects the descendant element. The element to the
-                    right of the space is what is targeted and is the 
-                    descendant. The element to the left of the space is the 
-                    ascendant.
-                    <span class="example">
-                        The example targets p elements that are descendants of 
-                        div elements.
-                    </span>
-                </p>
-            </div>
-            <div id="child" class="element">
-                <p class="name">div <span class="sig ">></span> p {...}</p>
-                <p class="desc">
-                    <strong>Child Selector:</strong>
-                    Selects the direct child(ren) element. The element to the 
-                    right of the greater than symbol is a child of the element
-                    to the left of the greater than symbol.
-                    <span class="example">
-                        The example targets p elements that are children of div
-                        elements.
-                    </span>
-                </p>
-            </div>
-            <div id="selectorList" class="element">
-                <p class="name">
-                    h1<span class="sig">,</span><br>
-                    h2<span class="sig">,</span><br>a {...}
-                </p>
-                <p class="desc">
-                    <strong>Selector List:</strong>
-                    Selects a group of related or unrelated elements to target
-                    them separately under the same rule and share properties.
-                    <span class="example">
-                        The example targets h1 elements, and/or h2 elements 
-                        and/or anchor elements.
-                    </span>
-                </p>
-            </div>
-            <div id="compound" class="element">
-                <p class="name">div<span class="sig ns"></span>#hero</p>
-                <p class="desc">
-                    <strong>Compound Selector:</strong>
-                    Selects elements only if they have the corresponding 
-                    attached attribute(s).
-                    <span class="example">
-                        The example targets the div element only if it
-                        also has an ID attribute value of hero.
-                    </span>
-                </p>
-            </div>
-        </section>
-        <h2>CSS Properties</h2>
-        <section id="textProperties" class="section css">
-            <h2>Text-related Properties</h2>
-            <div id="fsize" class="element">
-                <p class="name">font-size: 16px;</p>
-                <p class="desc">
-                    <strong>Font Size:</strong> Changes the size of
-                    the text.
-                    <br><strong class="value">Value(s):</strong> Any unit 
-                    number.
-                </p>
-                <p class="lvl c"><em>Cascades</em></p>
-            </div>
-            <div id="fweight" class="element">
-                <p class="name">font-weight: 400;</p>
-                <p class="desc">
-                    <strong>Font Weight:</strong>
-                    Changes the thickness of the text.
-                    <br><strong class="value">Value(s):</strong> Any integer
-                    number between 100-900 <b>or</b> <i>keywords</i>: bold, 
-                    bolder, light, ligther
-                </p>
-                <p class="lvl c"><em>Cascades</em></p>
-            </div>
-            <div id="fstyle" class="element">
-                <p class="name">font-style: normal;</p>
-                <p class="desc">
-                    <strong>Font Style:</strong> Adjusts the font to be
-                    normal, italic, or oblique.
-                    <br><strong class="value">Value(s):</strong> <i>keywords</i>
-                    : normal, italic, oblique
-                </p>
-                <p class="lvl c"><em>Cascades</em></p>
-            </div>
-            <div id="ffamily" class="element">
-                <p class="name">font-family: "Roboto", sans-serif;</p>
-                <p class="desc">
-                    <strong>Font Family:</strong> Changes the font of an element
-                    and sets up fallback font options for cross-compatibiltiy.
-                    <br><strong class="value">Value(s):</strong> One or more
-                    font family names wrapped in a pair of double quotes,
-                    separated by commas, and ending with the font 
-                    classification.
-                </p>
-                <p class="lvl c"><em>Cascades</em></p>
-            </div>
-            <div id="tdecoration" class="element">
-                <p class="name">text-decoration: underline;</p>
-                <p class="desc">
-                    <strong>Text Decoration:</strong> Sets the appearance of
-                    decorative lines on, above, or below text.
-                    <br><strong class="value">Value(s):</strong> <i>keywords</i>
-                    : underline, overline, line-through
-                </p>
-                <div class="split">
-                    <p class="lvl c"><em>Cascades</em></p>
-                    <p class="lvl c sh"><em>Shorthand</em></p>
-                </div>
-            </div>
-            <div id="talign" class="element">
-                <p class="name">text-align: left;</p>
-                <p class="desc">
-                    <strong>Text Align:</strong> Sets the horizontal alignment
-                    of text and inline content within an element.
-                    <br><strong class="value">Value(s):</strong> <i>keywords</i>
-                    : left, center, right
-                </p>
-                <p class="lvl c"><em>Cascades</em></p>
-            </div>
-        </section>
-        <section id="ssaProperties" class="section css">
-            <h2>Sizing, Spacing, and Alignment Properties</h2>
-            <div id="padding" class="element">
-                <p class="name">padding: 24px;</p>
-                <p class="desc">
-                    <strong>Padding:</strong> Controls the inner spacing of an
-                    element. This is the spacing between the element's content
-                    and the element's border.
-                    <br><strong class="value">Value(s):</strong> Any unit 
-                    number. Up to four values.
-                </p>
-                <p class="lvl c sh"><em>Shorthand</em></p>
-            </div>
-            <div id="border" class="element">
-                <p class="name">border: 1px solid black;</p>
-                <p class="desc">
-                    <strong>Border:</strong> Controls the size, style, and color
-                    of the element's border.
-                    <br><strong class="value">Value(s):</strong> Any unit 
-                    number for first value. Keyword for the second value: 
-                    <i>solid, dotted, outset, inset, offset, groove, ridge</i>.
-                    Hexcode or HTML color for third value.
-                </p>
-                <p class="lvl c sh"><em>Shorthand</em></p>
-            </div>
-            <div id="borderRadius" class="element">
-                <p class="name">border-radius: 10px;</p>
-                <p class="desc">
-                    <strong>Border Radius:</strong> Controls the roundness of an
-                    element's corners.
-                    <br><strong class="value">Value(s):</strong> Any unit 
-                    number. Up to four values.
-                </p>
-                <p class="lvl c sh"><em>Shorthand</em></p>
-            </div>
-            <div id="margin" class="element">
-                <p class="name">margin: 24px;</p>
-                <p class="desc">
-                    <strong>Margin:</strong> Controls the outer spacing of an
-                    element. This is the spacing between the element and other
-                    elements.
-                    <br><strong class="value">Value(s):</strong> Any unit 
-                    number. Up to four values.
-                </p>
-                <p class="lvl c sh"><em>Shorthand</em></p>
-            </div>
-            <div id="gap" class="element">
-                <p class="name">gap: 24px;</p>
-                <p class="desc">
-                    <strong>Gap:</strong> Changes row and/or column spacing 
-                    between child elements. 
-                    <b><i>Applied to parent/container.</i></b>
-                    <br><strong class="value">Value(s):</strong> Any unit 
-                    number. Up to two values.
-                </p>
-                <div class="split">
-                    <p class="lvl c cnt"><em>Container</em></p>
-                    <p class="lvl c fbx"><em>Flexbox</em></p>
-                    <p class="lvl c csg"><em>Grid</em></p>
-                    <p class="lvl c sh"><em>Shorthand</em></p>
-                </div>
-            </div>
-            <div id="width" class="element">
-                <p class="name">width: 100%;</p>
-                <p class="desc">
-                    <strong>Width:</strong> Changes the horizontal scale of
-                    an element.
-                    <br><strong class="value">Value(s):</strong> Any unit 
-                    number.
-                </p>
-            </div>
-            <div id="min-width" class="element">
-                <p class="name">min-width: 200px;</p>
-                <p class="desc">
-                    <strong>Width:</strong> Changes the minimum
-                    horizontal scale of an element.
-                    <br><strong class="value">Value(s):</strong> Any unit 
-                    number.
-                </p>
-            </div>
-            <div id="max-width" class="element">
-                <p class="name">max-width: 1440px;</p>
-                <p class="desc">
-                    <strong>Width:</strong> Changes the maximum
-                    horizontal scale of an element.
-                    <br><strong class="value">Value(s):</strong> Any unit 
-                    number.
-                </p>
-            </div>
-            <div id="height" class="element">
-                <p class="name">font-family: "Roboto", sans-serif;</p>
-                <p class="desc">
-                    <strong>Font Family:</strong> Changes the font of an element
-                    and sets up fallback font options for cross-compatibiltiy.
-                    <br><strong class="value">Value(s):</strong> One or more
-                    font family names wrapped in a pair of double quotes,
-                    separated by commas, and ending with the font 
-                    classification.
-                </p>
-                <p class="lvl c"><em>Cascades</em></p>
-            </div>
-            <div id="min-height" class="element">
-                <p class="name">text-decoration: underline;</p>
-                <p class="desc">
-                    <strong>Text Decoration:</strong> Sets the appearance of
-                    decorative lines on, above, or below text.
-                    <br><strong class="value">Value(s):</strong> <i>keywords</i>
-                    : underline, overline, line-through
-                </p>
-                <div class="split">
-                    <p class="lvl c"><em>Cascades</em></p>
-                    <p class="lvl c sh"><em>Shorthand</em></p>
-                </div>
-            </div>
-            <div id="max-height" class="element">
-                <p class="name">text-align: left;</p>
-                <p class="desc">
-                    <strong>Text Align:</strong> Sets the horizontal alignment
-                    of text and inline content within an element.
-                    <br><strong class="value">Value(s):</strong> <i>keywords</i>
-                    : left, center, right
-                </p>
-                <p class="lvl c"><em>Cascades</em></p>
             </div>
         </section>
     </body>

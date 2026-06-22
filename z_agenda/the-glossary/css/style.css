@@ -171,6 +171,13 @@ section.css {
         p .cech {
             border-color: #005dc8;
             background: linear-gradient(90deg, #7eff7c88 24px, #fff0 24px);
+            > .cech {
+                border-color: #c800a7;
+                background: linear-gradient(90deg, #82ffc088 24px, #fff0 24px);
+            }
+            > .ceo, > .cec {
+                color: #c800a7;
+            }
         }
         p .ceo, p .cec {
             color: #005dc8;
