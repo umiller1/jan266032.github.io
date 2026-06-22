@@ -9,6 +9,9 @@ const QUESTION_BANK = [
   "If you could teleport anywhere for lunch today, where would you go?",
   "What's a question you wish more people asked you?",
   "In a world where technology and AI are rapidly evolving and overtly relied on, what are 3 skills, niches, or techniques you can safely fallback on if most technology stopped working for two decades?",
+  "If you were a dragon, what one specific type of object(s) would you hoard?",
+  "What would your rival insist is your greatest weakness?",
+  "You discover your subconscious has been applying for jobs without your knowledge while you sleepwalk. What kind of jobs would it apply for?"
 ];
 
 const COOLDOWN_WEEKDAYS = 45; // 9 weeks × 5 weekdays
