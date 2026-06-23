@@ -1,0 +1,69 @@
+#t1-p1 {
+    color: green;
+}
+
+#t2-s1 {
+    color: #f711f7;
+}
+#t2-s2 {
+    color: #f711f7;
+}
+
+#t3-s1 {
+    color: red;
+}
+#t3-s2 {
+    color: goldenrod;
+}
+#t3-s3 {
+    color: blue;
+}
+
+#t4-p1 {
+    background-color: skyblue;
+}
+
+#t5-s1 {
+    background-color: yellow;
+}
+
+#t6-s1 {
+    font-weight: bold;
+}
+#t6-s2 {
+    font-weight: bold;
+}
+
+#t7-s1 {
+    font-style: italic;
+}
+#t7-s2 {
+    font-weight: bold;
+}
+#t7-s3 {
+    font-style: italic;
+}
+
+#t8-s1 {
+    text-decoration: underline;
+}
+#t8-s2 {
+    text-decoration: underline;
+}
+
+#t9-p1 {
+    font-size: 36px;
+}
+
+#t10-p1 {
+    font-size: 12px;
+    text-align: center;
+}
+#t10-p2 {
+    font-size: 48px;
+    text-align: center;
+}
+#t10-p3 {
+    font-size: 24px;
+    text-align: center;
+}

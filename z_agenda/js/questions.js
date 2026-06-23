@@ -27,7 +27,8 @@ const QUESTION_BANK = [
   "If you were a boss in a video game, describe the aesthetic and look of your arena or level.",
   "Pitch me a two sentence pitch for a book you'd be a main character in of your favorite genre.",
   "If you accidentally got recruited in a secret society, what would it be and would you stay in it?",
-  "If one object in your life could write a complaint letter about you, what object would it be?"
+  "If one object in your life could write a complaint letter about you, what object would it be?",
+  "What is something in HTML and CSS you'd like a refresher on in the future?",
 ];
 
 const COOLDOWN_WEEKDAYS = 45; // 9 weeks × 5 weekdays
