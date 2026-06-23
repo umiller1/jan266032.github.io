@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* Universal Card Styles */
+.card {
+    display: inline-block;
+    max-width: 350px;
+    background-color: #fff;
+    margin-right: 40px;
+}
+.card img {
+    height: 205px;
+    width: 100%;
+}
+.card a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Card 1 Styles */
+#c1 {
+    border-radius: 25px;
+    padding: 25px;
+}
+#c1 img {
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+#c1 p {
+    margin: 15px 0px 40px;
+}
+#c1 a {
+    background-color: #2d5471;
+    color: #f8eddd;
+    padding: 14px 45px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Card 2 Styles */
+#c2 {
+    text-align: center;
+}
+#c2 h2 {
+    margin: 30px 0px 15px;
+    padding: 0px 25px;
+}
+#c2 p {
+    padding: 0px 25px;
+}
+#c2 .btns {
+    padding: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+#c2 a {
+    background-color: #ed4b3d;
+    color: #fff;
+    padding: 14px 45px;
+    margin: 40px 0px 25px;
+}
+#c2 a.outline {
+    border: 2px solid #ed4b3d;
+    color: #ed4b3d;
+    background-color: transparent;
+}
