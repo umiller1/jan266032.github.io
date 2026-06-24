@@ -6,6 +6,9 @@
 }
 body {
     font-family: "Inter", sans-serif;
+    > h1, > h2 {
+        text-align: center;
+    }
 }
 div p:first-child {
     font-family: "Google Sans Code", monospace;
@@ -184,6 +187,34 @@ section.css {
             display: block;
         }
     }
+    .attr.peo, .attr.pec, .attrSet {
+        display: flex;
+    }
+    .attr .attrName {
+        margin-left: 10px;
+        color: #4600dc;
+    }
+    .attr .attrOp {
+        color: #2aa5ca;
+    }
+    .attr .attrVal {
+        color: #2a5fca;
+    }
+    .ce.attr {
+        background: transparent;
+        border: none;
+    }
+    .attr:has(> .attrSet ~ .attrSet) {
+        display: grid;
+        grid-template-columns: 1fr;
+        .attrName {
+            margin-left: 24px;
+        }
+        .attrSet {
+            background: linear-gradient(90deg, #7eff7c55 24px, #fff0 24px);
+            border-left: 1px solid;
+        }
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -204,6 +235,25 @@ section.css {
            border: none;
            padding: 10px;
            align-self: center;
+        }
+    }
+    #cleanCode section {
+        .element {
+            grid-template-columns: 1fr;
+            text-align: left;
+            background-color: #ff7b0011;
+            margin: 10px auto;
+            border-top: 0.5px solid #111;
+            border-bottom: 0.5px solid #111;
+        }
+        .element:nth-of-type(2n) {
+            background-color: #ff7b0022;
+        }
+        p.name {
+            text-align: left;
+            border: none;
+            border-bottom: 1px solid #ff7b00;
+            padding-bottom: 15px;
         }
     }
 }

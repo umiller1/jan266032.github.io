@@ -236,10 +236,16 @@
         </section>
         <section id="attributes" class="section">
             <h2>HTML Attribute Examples</h2>
-            <div id="btParent" class="element">
+            <div id="singleAttr" class="element">
                 <p class="name">
                     <span class="peo attr">
-                        &lt;a href="about.html"&gt;
+                        &lt;a
+                        <span class="attrSet">
+                            <span class="attrName">href</span>
+                            <span class="attrOp">=</span>
+                            <span class="attrVal">"about.html"</span>
+                        </span>
+                        &gt;
                     </span>
                     <span class="ce attr">Basic text child.</span>
                     <span class="pec attr">&lt;/a&gt;</span>
@@ -250,11 +256,24 @@
                     the right.
                 </p>
             </div>
-            <div id="btParent" class="element">
+            <div id="singleAttr" class="element">
                 <p class="name">
-                    <span class="peo">&lt;p&gt;</span>
-                    <span class="ce">Basic text child.</span>
-                    <span class="pec">&lt;/p&gt;</span>
+                    <span class="peo attr">
+                        &lt;a
+                        <span class="attrSet">
+                            <span class="attrName">href</span>
+                            <span class="attrOp">=</span>
+                            <span class="attrVal">"https://first.edu"</span>
+                        </span>
+                        <span class="attrSet">
+                            <span class="attrName">target</span>
+                            <span class="attrOp">=</span>
+                            <span class="attrVal">"_blank"</span>
+                        </span>
+                        &gt;
+                    </span>
+                    <span class="ce attr">Basic text child.</span>
+                    <span class="pec attr">&lt;/a&gt;</span>
                 </p>
                 <p class="desc">
                     Anything in between
