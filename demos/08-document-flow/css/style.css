@@ -1,0 +1,10 @@
+span {
+    font-weight: bold;
+}
+.split {
+    background-color: lightgreen;
+    padding: 24px;
+    margin: 24px;
+    display: inline-block;
+    width: 200px;
+}
