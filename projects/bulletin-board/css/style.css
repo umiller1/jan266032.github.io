@@ -1,0 +1,49 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+* {
+    margin: 0px;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.post-it {
+    background-color: yellow;
+    display: inline-block;
+    width: 260px;
+    height: 260px;
+    font-family: sans-serif;
+    margin: 24px; 
+    padding: 24px;
+    vertical-align: top;
+}
+.icon ol {
+    margin: 12px 0px 24px;
+}
+.icon img {
+    width: 100px;
+}
+.vacay p {
+    margin-bottom: 12px;
+}
+.vacay img {
+    height: 180px;
+    object-position: top;
+}
+.s1 {
+    color: violet;
+    background-color:#032037;
+    display: inline-block;
+    margin: 12px 0px;
+    padding: 12px;
+}
+.comic img {
+    filter: grayscale(100%);
+    mix-blend-mode: multiply; 
+}
