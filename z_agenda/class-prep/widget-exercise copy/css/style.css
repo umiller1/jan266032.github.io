@@ -1,3 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+
 #weather {
     width: max-content;
     border-radius: 24px;
@@ -22,28 +31,13 @@
     vertical-align: middle;
 }
 
-#profile {
+#calendar {
     width: max-content;
     border-radius: 24px;
-    background-color: #ffc1d6;
-    padding: 24px;
+    border: 1px solid #ddd;
+    padding: 16px;
     margin: 24px;
 }
-#weather p {
-    display: inline-block;
-    margin: 0px 6px;
-}
-#weather #deg {
-    margin: 0px 24px 0px 0px;
-}
-#weather #date {
-    font-size: 12px;
-    vertical-align: middle;
-}
-#profile img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    vertical-align: middle;
+#calendar .weekday {
+    color: tomato;
 }
