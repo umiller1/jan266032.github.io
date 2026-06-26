@@ -42,5 +42,60 @@ body {
     color: tomato;
 }
 #calendar .date {
-    
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+#calendar .event {
+    border-left: 2px solid #ae14e1;
+    padding: 6px 12px;
+    background-color: #ae14e122;
+}
+#calendar .event h5 {
+    color: #ae14e1;
+}
+#calendar .event h4 {
+    font-size: 12px;
+    margin: 0px 0px 6px;
+}
+#calendar .event p {
+    color: #000a;
+    font-size: 12px;
+}
+#calendar .personal {
+    border-left: 2px solid #e18514;
+    padding: 6px 12px;
+    background-color: #e1851422;
+    margin-top: 6px;
+}
+#calendar .personal h5 {
+    color: #e18514;
+}
+
+#music {
+    margin: 24px;
+    width: max-content;
+}
+#music .top {
+    background-color: #ff5387;
+    color: white;
+    border-radius: 24px 24px 0px 0px;
+    padding: 12px;
+}
+#music .top img {
+    width: 70px;
+    vertical-align: middle;
+}
+#music .now-playing {
+    display: inline-block;
+    margin-left: 12px;
+}
+#music .bottom {
+    background-color: #bd4066;
+    color: white;
+    border-radius: 0px 0px 24px 24px;
+    padding: 12px;
+}
+#music img {
+    width: 100px;
+    border-radius: 12px;
 }
