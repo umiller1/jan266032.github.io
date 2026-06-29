@@ -7,3 +7,26 @@ body {
     font-family: sans-serif;
 }
 /* Student Work Below */
+#weather {
+    background-color: #1488e1;
+    color: white;
+    width: max-content;
+    border-radius: 24px;
+    margin: 24px;
+    padding: 6px 16px;
+}
+#weather p {
+    display: inline-block;
+    margin: 0px 6px;
+}
+#weather img {
+    width: 48px;
+    vertical-align: middle;
+}
+#weather #degrees {
+    margin: 0px 24px 0px 0px;
+}
+#weather #date {
+    font-size: 12px;
+    vertical-align: middle;
+}
