@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+/*
+    Shorthand Margin/Padding:
+    One Value: Changes all four sides.
+    Two Value: First value adjusts top/bottom, second value adjusts left/right
+    Three Value: First value adjusts top, second value adjusts left/right, 
+    third value adjusts bottom.
+    Four Value: First value adjusts top, second value adjusts right, 
+    third value adjusts bottom, and fourth value adjusts left.
+*/
+div {
+    border: 10px dashed #7e87f5;
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: #3e0069;
+    color: white;
+}
+p {
+    margin: 60px;
+    background-color: #530100;
+    color: #fffe84;
+    padding: 48px 60px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
