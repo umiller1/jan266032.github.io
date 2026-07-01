@@ -29,6 +29,9 @@ const QUESTION_BANK = [
   "If you accidentally got recruited in a secret society, what would it be and would you stay in it?",
   "If one object in your life could write a complaint letter about you, what object would it be?",
   "What is something in HTML and CSS you'd like a refresher on in the future?",
+  "What gameshow do you think you could win?",
+  "If you were part of a party to defeat a demon king, what class would you be? (bard, hypnotist, priest, warrior, mage, etc.)",
+  "If you woke up in a video game with your friends but they didn't realize it, how would you convince them?",
 ];
 
 const COOLDOWN_WEEKDAYS = 45; // 9 weeks × 5 weekdays
