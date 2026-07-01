@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.sc {
+    background-color: lightblue;
+    width: 85%;
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 24px;
+}
