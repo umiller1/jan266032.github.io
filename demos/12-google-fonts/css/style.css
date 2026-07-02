@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Oi&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "Geist Pixel", sans-serif;
+}
+h1,
+h2,
+h3,
+h6 {
+    font-family: "Oi", serif;
 }

@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.sc {
+    width: 85%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+.lc {
+    padding: 24px;
+    background-color: lightblue;
+}
+.dc {
+    padding: 24px;
+    background-color: navy;
+    color: white;
+}

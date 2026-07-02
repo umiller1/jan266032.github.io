@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Poppins", serif;
+}
+h1,
+h3,
+h4,
+h6,
+.logo {
+    font-family: "Modak", serif;
+    letter-spacing: 0.5px;
+}
+a {
+    text-decoration: none;
+    color: #111;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.sc {
+    width: 85%;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+.logo {
+    font-weight: 500;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+.btn {
+    display: inline-block;
+    background-color: #f67418;
+    border: 0.5px solid #f67418;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition: 
+        border-radius 0.5s,
+        color 0.5s,
+        background-color 0.5s;
+    &.alt {
+        background-color: transparent;
+        color: #f67418;
+        margin-left: 15px;
+    }
+    &:hover {
+        border-radius: 20px;
+        background-color: transparent;
+        color: #f67418;
+    }
+}
+
+/* Navigation & Footer */
+#nav {
+    border-bottom: 0.5px solid #f67418;
+    padding: 10px 0px;
+    text-align: center;
+}
+#nav a {
+    margin: 0px 25px;
+}
+#nav a:first-child, 
+#nav a:last-child {
+    margin: 0px;
+}
+#foot {
+    background-color: #f67418;
+    padding: 15px 7.5%;
+    text-align: center;
+    margin-top: 80px;
+}
+#foot a {
+    margin: 0px 15px;
+}
+/* Hero */
+#hero {
+    background:
+        linear-gradient(0deg, #1119, #1119),
+        url("../images/hero.webp")
+        
+    ;
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    position: relative;
+}
+#hero h1 {
+    font-size: 5rem;
+    color: #0cd3f6;
+    letter-spacing: 15px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+/* Sections */
+.section {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    > .sc {
+        max-width: 600px;
+    }
+}
+.section > div {
+    width: max-content;
+}
+.section img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+.section h2 {
+    text-align: center;
+}
+.section .buttons {
+    text-align: center;
+    margin-top: 25px;
+}
