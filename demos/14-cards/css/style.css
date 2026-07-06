@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.single-column {
+    margin: 0px auto;
+    width: 90vw;
+    max-width: 1200px;
+}
+
+.card-container {
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}
+.card {
+    border: 5px solid #6363ec;
+    padding: 36px;
+    flex: 1;
+    min-width: 200px;
+}
+.card img {
+    height: 200px;
+}
+.card h2 {
+    margin: 24px 0px 12px;
+    font-size: 36px;
+}
+.card p {
+    margin: 0px;
+}
