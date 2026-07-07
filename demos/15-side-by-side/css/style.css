@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.single-column {
+    width: 90vw;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.split-layout {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.image-container,
+.content {
+    flex: 1;
+}
