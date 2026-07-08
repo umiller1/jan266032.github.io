@@ -29,9 +29,30 @@ a {
     max-width: 1280px;
     margin: 0px auto;
 }
+.article {
+    max-width: 800px;
+}
 .tc {
     display: flex;
     gap: 50px;
+}
+.split {
+    display: flex;
+    gap: 24px;
+    min-height: 0px;
+}
+.split p {
+    flex: 1;
+}
+.split .ic {
+    flex: 1;
+    display: flex;
+    min-height: 0px;
+}
+.ic img {
+    min-height: 0px;
+    height: 100%;
+    display: block;
 }
 .sticky {
     position: sticky;
@@ -41,7 +62,7 @@ a {
     display: inline-block;
     padding: 6px 16px;
     background-color: #a7e5b1;
-    border: 2px solid #a7e5b1;
+    border: 1px dashed #a7e5b1;
     font-weight: 600;
     color: #2d5233;
     transition: background-color 0.5s, color 0.5s;
@@ -53,12 +74,74 @@ a {
 
 #nav {
     display: flex;
+    flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
     align-items: center;
     padding: 15px 0px;
-    border-bottom: 2px solid #ffb5ef;
+    border-bottom: 0.5px solid #ffb5ef;
     border-image: linear-gradient(to right, #fff0, #ffb5ef ,#fff0) 1;
     font-size: 0.9rem;
     margin-bottom: 50px;
+}
+
+.sidebar {
+    width: max-content;
+    font-size: 0.8rem;
+}
+.sidebar h3 {
+    background-color: #962443;
+    padding: 12px 24px;
+    color: #ffe5f9;
+}
+.sidebar ul {
+    list-style-type: none;
+    margin-bottom: 24px;
+}
+.sidebar li {
+    padding: 12px;
+    border-left: 2px solid;
+    border-bottom: 0.5px dashed;
+}
+.sidebar li:nth-child(1n) {
+    color:#0991c3;
+}
+.sidebar li:nth-child(2n) {
+    color:#c30982;
+}
+.sidebar li:nth-child(3n) {
+    color:#69c309;
+}
+.sidebar a {
+    color: #111;
+}
+.sidebar a:hover {
+    color: inherit;
+}
+
+#blog {
+    flex: 1;
+}
+#blog p {
+    max-width: 550px;
+}
+#blog .head h1 {
+    margin: 12px 0px;
+}
+#blog .head p {
+    margin: 6px 0px 12px;
+    font-size: 0.9rem;
+    padding-bottom: 12px;
+    border-bottom: 0.5px dashed #ffb5ef;
+    border-image: linear-gradient(to right,#ffb5ef,#ffb5efaa, #fff0) 1;
+}
+#blog .head img {
+    min-height: 25dvh;
+    max-height: 50dvh;
+}
+#blog .post p {
+    margin: 24px 0px;
+}
+#blog .post h2 + p {
+    margin-top: 12px;
 }
