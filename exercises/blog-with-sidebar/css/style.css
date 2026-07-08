@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ultra&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+img {
+    object-fit: cover;
+    width: 100%;
+}
+h1,
+h4,
+h6 {
+    font-family: "Ultra", serif;
+}
+a {
+    text-decoration: none;
+    color: #111;
+    transition: color 0.5s;
+    &:hover {
+        color: #ffb5ef;
+    }
+}
+.sc {
+    width: 85vw;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+.tc {
+    display: flex;
+    gap: 50px;
+}
+.sticky {
+    position: sticky;
+    top: 0px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 16px;
+    background-color: #a7e5b1;
+    border: 2px solid #a7e5b1;
+    font-weight: 600;
+    color: #2d5233;
+    transition: background-color 0.5s, color 0.5s;
+    &:hover {
+        background-color: transparent;
+        color: #a7e5b1;
+    }
+}
+
+#nav {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    border-bottom: 2px solid #ffb5ef;
+    border-image: linear-gradient(to right, #fff0, #ffb5ef ,#fff0) 1;
+    font-size: 0.9rem;
+    margin-bottom: 50px;
+}
