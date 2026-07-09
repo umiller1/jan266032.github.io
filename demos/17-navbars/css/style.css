@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    width: 80%;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+header {
+    background-color: #010264;
+    position: sticky;
+    top: 0px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 16px 0px;
+}
+nav .logo {
+    margin-right: auto;
+}
+nav .logo img {
+    width: 100px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav .btn {
+    background-color: white;
+    color: #010264;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 24px;
+}
+
+section {
+    height: 200vh;
+}
+section p {
+    font-size: 24px;
+}
