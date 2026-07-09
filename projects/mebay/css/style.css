@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+a {
+    color: #111;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+}
+.icon img {
+    width: 25px;
+}
+.image-container img {
+    height: 100%;
+}
+.sc {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+.split {
+    display: flex;
+    gap: 25px;
+}
+
+#product > div {
+    flex: 1;
+}
