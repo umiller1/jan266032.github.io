@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#hero-1 {
+    background-image: url("../images/misty-mountains.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-1 .content {
+    width: max-content;
+}
+.content .btn {
+    display: inline-block;
+    background-color: #133313;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;  
+}
+
+#hero-2 {
+    height: 100vh;
+    background-image: url("../images/lonely-ocean.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#hero-2 .content {
+    width: max-content;
+    margin: 0px;
+    padding-right: 5%;
+}
+
+#hero-3 {
+    height: 100vh;
+    background-image: url("../images/placid-waters.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#hero-3 .content {
+    background-color: #fff5;
+    padding: 24px;
+    width: max-content;
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+}
