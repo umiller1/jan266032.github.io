@@ -33,6 +33,7 @@ const QUESTION_BANK = [
   "If you were part of a party to defeat a demon king, what class would you be? (bard, hypnotist, priest, warrior, mage, etc.)",
   "If you woke up in a video game with your friends but they didn't realize it, how would you convince them?",
   "If you could go camping with your friends in a liminal space full of fun puzzles and intricacies, what liminal space would you choose or how would it look?",
+  "If you could interview an animal, what animal and what are 3 questions you'd ask it?",
 ];
 
 const COOLDOWN_WEEKDAYS = 45; // 9 weeks × 5 weekdays
