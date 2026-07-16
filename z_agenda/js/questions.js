@@ -22,7 +22,7 @@ const QUESTION_BANK = [
   "If you and your pet swapped places, would your pet take good care of you?",
   "If you had magical access to a small cave behind a waterfall, what would you do with it?",
   "If you were a dish, what restaurant would you be sold at?",
-  "If you were on trail and your jury were 12 cats, would you be found guilty or not guilty?",
+  "If you were on trial and your jury were 12 cats while the judge was a dog, what would you be on trial for and would you be found guilty or not guilty?",
   "What's one tiny inconvenience that would grant you super powers and turn you into a villain?",
   "If you were a boss in a video game, describe the aesthetic and look of your arena or level.",
   "Pitch me a two sentence pitch for a book you'd be a main character in of your favorite genre.",
