@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Geomini:wght@200..800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Geomini", sans-serif;
+    font-weight: 300;
+}
+h1,
+h2,
+h3,
+.logo {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #075280;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #075280;
+    width: max-content;
+    margin-right: auto;
+}
+.logo img {
+    width: 5px;
+    filter: brightness(0) saturate(100%) invert(14%) sepia(85%) saturate(3043%) hue-rotate(187deg) brightness(96%) contrast(94%);
+}
+.logo .studio {
+    font-size: 8px;
+    letter-spacing: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.logo .moondrop {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.sc {
+    width: 80vw;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+header {
+    background-image: url("../images/art3.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 100dvh;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    margin-bottom: 50px;
+}
+nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding: 15px 0px;
+    font-size: 0.9rem;
+}
+nav a {
+    color: #111;
+}
+
+.hero {
+    display: flex;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    mix-blend-mode: overlay;
+    text-align: center;
+    font-size: 5rem;
+}
+h1 img {
+    width: 0.25em;
+}
