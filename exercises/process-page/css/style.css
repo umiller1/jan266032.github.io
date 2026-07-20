@@ -125,6 +125,7 @@ footer {
 #flatworks img {
     height: 90vh;
     width: auto;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 600px) {
