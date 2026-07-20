@@ -42,8 +42,25 @@ a {
     gap: 50px;
     justify-content: space-between;
 }
+.split:has(.fw) {
+    gap: 10px 50px;
+}
 .split .column {
     flex: 1;
+}
+.split .column img {
+    height: 100%;
+}
+.split .fw {
+    flex: 100%;
+    margin: 0px;
+}
+.split .sp {
+    margin: 15px 0px;
+}
+
+p + p {
+    margin-top: 15px;
 }
 
 nav {
@@ -92,6 +109,30 @@ footer {
 #main.sc {
     max-width: 800px;
 }
-.process > p, .process > div {
-    margin: 25px 0px;
+.process {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.process h2 {
+    margin-bottom: 10px;
+}
+#flatworks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#flatworks img {
+    height: 90vh;
+    width: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .split {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .split .column {
+        flex: auto;
+    }
 }
